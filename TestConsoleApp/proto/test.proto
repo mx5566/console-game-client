@@ -1,0 +1,8 @@
+syntax = "proto3";
+ 
+message pb_team_info {
+    string team_id = 1;
+    string leader_id = 2;
+    repeated string members = 3;
+    int32 status = 4;
+}
